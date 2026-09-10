@@ -25,8 +25,8 @@ Frontend/  # Interface Vue
 
 Como executar
 
-Backend
-Entre na pasta do backend:
+
+Backend:
 
 ```bash
 cd backend
@@ -45,7 +45,8 @@ php artisan serve
 
 A API estará disponível em `http://127.0.0.1:8000`.
 
-# Frontend
+Frontend:
+
 
 Em outro terminal, entre na pasta do frontend:
 
@@ -58,7 +59,7 @@ npm run dev
 O frontend será iniciado no endereço informado pelo Vite, normalmente `http://localhost:5173`.
 
 
-## Rotas principais da API
+#Rotas principais da API
 
 | Método | Rota | Descrição |
 | --- | --- | --- |
