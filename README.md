@@ -11,20 +11,21 @@ Alteração rápida entre os status `pendente` e `pago`.
 Validações para CPF/CNPJ, valor decimal maior que zero e vencimento igual ou posterior à data atual.
 Confirmação antes de excluir clientes ou boletos.
 
+```text
 Backend: PHP 8.2 e Laravel 12
 Frontend: Vue 3, TypeScript e Vite
 Banco de dados: SQLite
-
+```
 
 Estrutura do projeto:
+```text
 backend/   # API Laravel
-
 Frontend/  # Interface Vue
+```
 
+Como executar
 
-# Como executar
-
-# Backend
+Backend
 Entre na pasta do backend:
 
 ```bash
