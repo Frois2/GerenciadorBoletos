@@ -1,0 +1,10 @@
+# Arquivos locais e dados de desenvolvimento
+backend/.env
+backend/database/database.sqlite
+Frontend/.env
+
+# Dependências e artefatos de build
+backend/vendor/
+backend/node_modules/
+Frontend/node_modules/
+Frontend/dist/
