@@ -2,33 +2,32 @@
 
 Aplicação CRUD para gerenciamento de clientes e boletos, desenvolvida como teste técnico.
 
-## Funcionalidades
+# Funcionalidades
 
-- Cadastro, edição, listagem e exclusão de clientes.
-- Cadastro, edição, listagem e exclusão de boletos.
-- Um cliente pode possuir vários boletos; cada boleto pertence a um cliente.
-- Busca de clientes, busca de boletos e filtros por status e vencimento.
-- Alteração rápida entre os status `pendente` e `pago`.
-- Validações para CPF/CNPJ, valor decimal maior que zero e vencimento igual ou posterior à data atual.
-- Confirmação antes de excluir clientes ou boletos.
+Cadastro, edição, listagem e exclusão de clientes.
+Cadastro, edição, listagem e exclusão de boletos.
+Um cliente pode possuir vários boletos; cada boleto pertence a um cliente.
+Busca de clientes, busca de boletos e filtros por status e vencimento.
+Alteração rápida entre os status `pendente` e `pago`.
+Validações para CPF/CNPJ, valor decimal maior que zero e vencimento igual ou posterior à data atual.
+Confirmação antes de excluir clientes ou boletos.
 
-## Tecnologias
+# Tecnologias
 
-- Backend: PHP 8.2 e Laravel 12
-- Frontend: Vue 3, TypeScript e Vite
-- Banco de dados: SQLite (desenvolvimento) ou MySQL
+Backend: PHP 8.2 e Laravel 12
+Frontend: Vue 3, TypeScript e Vite
+Banco de dados: SQLite
 
-## Estrutura do projeto
+# Estrutura do projeto
 
 ```text
 backend/   # API Laravel
 Frontend/  # Interface Vue
 ```
 
-## Como executar
+# Como executar
 
-### Backend
-
+# Backend
 Entre na pasta do backend:
 
 ```bash
@@ -39,7 +38,8 @@ Instale as dependências e configure o ambiente:
 
 ```bash
 composer install
-copy .env.example .env
+Copy-Item .env.example .env
+New-Item -ItemType File database/database.sqlite -Force
 php artisan key:generate
 php artisan migrate
 php artisan serve
@@ -47,7 +47,7 @@ php artisan serve
 
 A API estará disponível em `http://127.0.0.1:8000`.
 
-### Frontend
+# Frontend
 
 Em outro terminal, entre na pasta do frontend:
 
