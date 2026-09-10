@@ -15,9 +15,10 @@ Backend: PHP 8.2 e Laravel 12
 Frontend: Vue 3, TypeScript e Vite
 Banco de dados: SQLite
 
-Estrutura do projeto
 
+Estrutura do projeto:
 backend/   # API Laravel
+
 Frontend/  # Interface Vue
 
 
