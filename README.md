@@ -2,8 +2,7 @@
 
 Aplicação CRUD para gerenciamento de clientes e boletos, desenvolvida como teste técnico.
 
-# Funcionalidades
-
+Funcionalidades
 Cadastro, edição, listagem e exclusão de clientes.
 Cadastro, edição, listagem e exclusão de boletos.
 Um cliente pode possuir vários boletos; cada boleto pertence a um cliente.
@@ -12,18 +11,15 @@ Alteração rápida entre os status `pendente` e `pago`.
 Validações para CPF/CNPJ, valor decimal maior que zero e vencimento igual ou posterior à data atual.
 Confirmação antes de excluir clientes ou boletos.
 
-# Tecnologias
-
 Backend: PHP 8.2 e Laravel 12
 Frontend: Vue 3, TypeScript e Vite
 Banco de dados: SQLite
 
-# Estrutura do projeto
+Estrutura do projeto
 
-```text
 backend/   # API Laravel
 Frontend/  # Interface Vue
-```
+
 
 # Como executar
 
